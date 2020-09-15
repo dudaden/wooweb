@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatile" content="ie=edge">
+        <title>Website creation survey</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    </head>
+    <body>
+       <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6"><img src="blue1.jpg" class="img-fluid" width="700" height="800"  vspace="10"></div>
+            <div class="col-md-6"> 
+        <h1>Website creation survey</h1>
+       <form id="mailForm">
+        <div id="errorMess"></div>
+           <div id="create">
+            <h5>1. Do you know how to create a website? </h5><br />
+        <input type="radio" name="q1" value="yes" />
+        <label>Yes</label><br />
+        <input type="radio" name="q1" value="no"/>
+        <label>No</label><br /><br /></div>
+        <div id="companies">
+            <h5>2. Do you know any of those companies specialized in web development?</h5><br />
+        <input type="radio" name="q2" value="12" />
+        <label>https://www.startsmarter.co.uk/ </label><br />
+        <input type="radio" name="q2" value="4"/>
+        <label>https://dsgnone.com/ </label><br />
+        <input type="radio" name="q2" value="2"/>
+        <label>https://www.simplyzesty.com/ </label><br />
+        <input type="radio" name="q2" value="1"/>
+        <label>https://focusondigital.co.uk/ </label><br />
+        <input type="radio" name="q2" value="0"/>
+        <label>None of them</label><br /><br /></div>
+        <div id="blog">
+            <h5>3. Would you like to have your own website, or blog?</h5><br />
+        <input type="radio" name="q3" value="yeap" />
+        <label>Yes</label><br />
+        <input type="radio" name="q3" value="not" />
+        <label>No</label><br /><br /></div>
+        <div id="platforms">
+            <h5>4. Do you know any of those website platforms for web development?</h5><br />
+        <input type="radio" name="q4" value="ab"/>
+        <label>WordPress</label><br />
+        <input type="radio" name="q4" value="ac"/>
+        <label>wix.com</label><br />
+        <input type="radio" name="q4" value="ad"/>
+        <label>duda.co</label><br />
+        <input type="radio" name="q4" value="ae"/>
+        <label>something else</label><br />
+        <input type="radio" name="q4" value="af"/>
+        <label>none of them</label><br /><br /></div>
+        <div id="money">
+            <h5>5. How much money does it cost to create 5 pages website? On the average?</h5><br />
+        <input type="radio" name="q5" value="notRight"/>
+        <label>300£</label><br />
+        <input type="radio" name="q5" value="almost"/>
+        <label>500£</label><br />
+        <input type="radio" name="q5" value="right"/>
+        <label>700£</label><br /><br /></div>
+        <div id="website">
+            <h5>6. What you prefer more, to see on the website?</h5><br />
+        <input type="radio" name="q6" value="style"/>
+        <label>Style, design, animation</label><br />
+        <input type="radio" name="q6" value="content"/>
+        <label>Content, explanation, publications</label><br /><br /></div>
+        <div id="face">
+            <h5>7. Do you think websites are now a company's face?</h5><br />
+        <input type="radio" name="q7" value="ok"/>
+        <label>Yes</label><br />
+        <input type="radio" name="q7" value="notok"/>
+        <label>No</label><br /><br /></div>
+        <div id="price">
+            <h5>8.  If someone were to create a website for you, how much money would you like to spend? (In pounds, please)</h5><br />
+        <input type="digits" name="price" placeholder="Price" /><br /><br /></div>
+        <button type="button" id="sendMail" class="btn btn-outline-success my-2 my-sm-0">Ready</button><br /><br />
+    </form>
+    <a href="AllCharts.html" class="btn btn-primary btn-lg" role="button" target="_blank">All Charts and Answers</a>
+       </div>
+    </div>
+</div>
+</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="formMail.js"></script>
+    </body>
+</html>

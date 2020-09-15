@@ -1,0 +1,86 @@
+.main-container {
+  background: #fff;
+  position: relative;
+  z-index: 3;
+  margin: 0px 20px 0;
+  border-radius: 30px;
+  box-shadow: 0 16px 28px 2px rgba(0,0,0,.14),0 6px 30px 5px rgba(0,0,0,.12),0 8px 10px -5px rgba(0,0,0,.2);
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+.section-container {
+  background-color: rgb(255, 255, 255);
+  padding: 10px 0;
+  text-align: center;
+}
+.section-container1 {
+  background-color: rgb(0, 0, 0);
+  padding: 10px 0;
+  text-align: center;
+}
+
+@media(max-width: 500px) {
+.section-container {
+  padding: 10px 0;
+  text-align: center;
+  height: auto;
+}
+.section-container1 {
+  padding: 10px 0;
+  text-align: center;
+  height: auto;
+}
+.main-container {
+  height: auto;
+  }
+.card-text-meaning {
+  font-size: 9px;
+  }
+.card-title-main {
+  font-weight:bold
+  }
+.slide-title {
+  font-size: 32px;
+  }
+}
+.card-title-main {
+  font-weight:bold
+  }
+.title-prog {
+  text-align: center;
+  font-weight:bold
+}
+.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+  bottom: -40px;
+}
+.blog .carousel-indicators li {
+  background: #a3a3a3;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+}
+.blog .carousel-indicators .active {
+background: #707070;
+}
+.all-content {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(90, 90, 90);
+}
+.title-main2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 35px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+.title-main3 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 35px;
+  font-weight: bold;
+  color: purple;
+}
+

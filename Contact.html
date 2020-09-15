@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <meta http-equiv="X-UA-Compatible" content="ie=edge" /> 
+     <meta name="description" content="The website development team, we design and build award-winning products, 
+     brands, and websites for tech companies. We build products, brands, and websites that help our partners stand out, 
+     connect with customers, and grow faster." />
+    <link rel="stylesheet" href="styleA.css" />
+    <link rel="stylesheet" href="styleCon.css" />
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:500" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons">
+    <link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/material-kit.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/bootstrap-material-design.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/material-kit.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script src="NavBar.js"></script> 
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <script type="text/javascript" src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+		<script type="text/javascript" src="https://www.amcharts.com/lib/3/serial.js"></script>
+    <script type="text/javascript" src="https://www.amcharts.com/lib/3/themes/black.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+    (function() {
+    emailjs.init("user_RQC7uuJZVwjOjFhFQPOtF");
+    })();
+    </script>
+    <title>WooWeb</title>
+  </head>
+  <body class="bg">
+   
+   <div class="wrapper">
+      <header>
+         <nav>
+            <div class="menu-icon">
+               <i class="fa fa-bars fa-2x"></i>
+            </div>
+            <div class="logo"><a href="index.html"><img src="LogoWeb.png" width="160" height="40"></a>
+            </div>
+            <div class="menu">
+               <ul>
+                  <li><a id="len1" class="hoverable" href="index.html">Home</a></li>
+                  <li><a id="len2" class="hoverable" href="About.html">About</a></li>
+                  <li><a id="len3" class="hoverable" href="Services.html">Services</a></li>
+                  <li><a id="len4" class="hoverable" href="Contact.html">Contact</a></li>
+               </ul>
+            </div>
+         </nav>
+      </header>
+
+      <div class="positionir-contact"></div>
+  
+    
+<main class="main-container">
+
+  <section class="section-container">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <h2 class="title-main" data-aos="fade-up">Contact us today!</h2>
+          <p data-aos="fade-up"  class="all-content">At Wooweb, we look after our customers. 
+            From initial contact through design and aftercare, you can rest assured that we will help you every step of the way. 
+            We guarantee by 99.9% that all our consumers are happy about our work. All our servers and websites work correctly and don't have any errors or mistakes.  </p>
+          <p data-aos="fade-up"  class="all-content">We are always happy to help with any advice, we guarantee our costumer's perfect service. 
+            All our systems work on Linux operating system. Also, we promise high speed of our servers and we are working all around the world, so don't wait contact us now!</p>
+              <div id="chartdiv" style="width: 100%; height: 400px; background-color: #ffffff;" ></div>
+            <h2 class="title-main2" data-aos="fade-up">Map Location</h2>
+          <div id="map" style="margin:auto; width:700px; height:400px;" class="img-fluid"></div>  
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section pb-5">
+    <div class="container">
+      <h2 class="title text-center mb-4" data-aos="fade-up">Contact us by using this form.</h2>
+      <form data-aos="fade-up" id="emailjsform">
+        <div class="form-row">
+          <div class="col-12 col-md-6 mb-4">
+            <input type="text" class="form-control" placeholder="Full Name" name="name">
+          </div>
+          <div class="col col-md-6 mb-4">
+            <input type="email" class="form-control" placeholder="Email" name="email">
+          </div>
+          <div class="col-12 mb-4">
+            <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+          </div>
+          <div class="col-12 mb-4">
+            <div class="form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" value="">
+                I agree with terms and conditions
+                <span class="form-check-sign">
+                  <span class="check"></span>
+                </span>
+              </label>
+            </div>
+          </div>
+          <div class="col-12 text-right">
+            <button type="submit" class="btn btn-rose">Submit</button>
+          </div>
+        </div>
+      </form>
+      <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('emailjsform').addEventListener('submit', function(event) {
+                event.preventDefault();
+                emailjs.sendForm('service_n7tm7zp', '65454359', '#emailjsform');
+            });
+        }
+    </script>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-left col-md-4 col-sm-6">
+    <p class="about">
+      <span> About the company</span> The website development team, we design and build award-winning products, 
+      brands, and websites for tech companies. We build products, brands, and websites that help our partners stand out, 
+      connect with customers, and grow faster.
+    </p>
+    
+  </div>
+  <div class="footer-center col-md-4 col-sm-6">
+    <div>
+      <i class="fa fa-map-marker"></i>
+      <p class="london"><span> St Olav’s Court</span> Canada Water, <br> London, SE16 2XB</p>
+    </div>
+    <div>
+      <i class="fa fa-phone"></i>
+      <p> (+44) 7842 283628</p>
+    </div>
+    <div>
+      <i class="fa fa-envelope"></i>
+      <p><a href="Contact.html"> wooweb@info.com</a></p>
+    </div>
+  </div>
+  <div class="footer-right col-md-4 col-sm-6">
+    <a href="index.html"><img src="LogoWeb.png" width="200" height="50"></a>
+    <p class="menu">
+      <a href="index.html"> Home</a> |
+      <a href="About.html"> About</a> |
+      <a href="Services.html"> Services</a> |
+      <a href="Contact.html"> Contact</a>
+    </p>
+    <p class="name"> Wooweb &copy; 2020</p>
+  </div>
+</footer>
+      
+<script src="Anime.js"></script> 
+<script>
+  function myMap() {
+    var mapOptions = {
+        center: new google.maps.LatLng(51.498548, -0.054388),
+        zoom: 16,
+        mapTypeId: google.maps.MapTypeId.HYBRID
+    }
+    var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+    var marker = new google.maps.Marker({
+      position: {lat: 51.498548, lng: -0.054388 },
+      map: map,
+    });
+  }
+  </script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBSdSS94ZRJQOJzuYD2_TSzgTtxCu-tPbg&callback=myMap"></script>
+  <script type="text/javascript">
+    AmCharts.makeChart("chartdiv",
+      {
+        "type": "serial",
+        "categoryField": "category",
+        "columnSpacing": 8,
+        "columnSpacing3D": 2,
+        "startDuration": 1,
+        "color": "#000000",
+        "fontSize": 20,
+        "categoryAxis": {
+          "gridPosition": "start"
+        },
+        "trendLines": [],
+        "graphs": [
+          {
+            "balloonColor": "#4B0082",
+            "balloonText": "[[title]] of [[category]]:[[value]]",
+            "color": "#4B0082",
+            "columnWidth": 0.84,
+            "fillAlphas": 1,
+            "fillColors": "#4B0082",
+            "gapPeriod": 1,
+            "id": "OurClients",
+            "lineAlpha": 0,
+            "lineColor": "#4B0082",
+            "negativeFillAlphas": 0,
+            "negativeFillColors": "#4B0082",
+            "negativeLineAlpha": 0,
+            "negativeLineColor": "#4B0082",
+            "title": "Our Clients",
+            "topRadius": 1,
+            "type": "column",
+            "valueField": "Our Cliens"
+          }
+        ],
+        "guides": [],
+        "valueAxes": [
+          {
+            "id": "ValueAxis-1",
+            "stackType": "regular",
+            "title": "Quantity in percentage(%)"
+          },
+          {
+            "id": "ValueAxis-2"
+          }
+        ],
+        "allLabels": [],
+        "balloon": {},
+        "legend": {
+          "enabled": true,
+          "useGraphSettings": true
+        },
+        "titles": [
+          {
+            "id": "Title",
+            "size": 23,
+            "text": "Our progress"
+          }
+        ],
+        "dataProvider": [
+          {
+            "category": "June",
+            "Our Cliens": "9"
+          },
+          {
+            "category": "July",
+            "Our Cliens": "21"
+          },
+          {
+            "category": "Aug",
+            "Our Cliens": "34"
+          },
+          {
+            "category": "Sept",
+            "Our Cliens": "46"
+          }
+        ]
+      }
+    );
+  </script>
+</body>
+  </html>
